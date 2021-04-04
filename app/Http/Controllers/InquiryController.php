@@ -6,5 +6,8 @@ use Illuminate\Http\Request;
 
 class InquiryController extends Controller
 {
-    //
+    public function index()
+    {
+        return 'hello world';
+    }
 }
