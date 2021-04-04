@@ -15,3 +15,7 @@
 //     return view('welcome');
 // });
 Route::get('/', 'inquiryController@index');
+
+Route::get('/', function () {
+    return view('template');
+});
